@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    display: inline-block;
+    position: relative;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/20220710_174404.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+}
+
+#titulo {
+    font-family: 'Poppins', sans-serif;
+    color: blanchedalmond;
+    margin: auto;
+    transform: translateY(80%);
+    justify-content: center;
+    position: relative;
+}
+
+.imgseta {
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+
+#titulo h1 {
+    margin: 7px;
+    padding-left: 15px;
+}
+
+#seta {
+    position: relative;
+    transform: rotate(90deg);
+    width: 40px;
+    filter: invert(1);
+}
+
+#parte1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    /*background: linear-gradient(0.25turn, #3f5aa60d, #eb3cf645, #f7b57d29);*/
+    background: linear-gradient(0turn, #3f5aa60d, #eb3cf61f, #f7b57d9e);
+}
+
+#titulo p {
+    justify-content: center;
+    display: flex;
+}
+
+#casal {
+    top: 0px;
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 10% 30%;
+}
+
+#tdog {
+    width: 350px;
+    height: 370px;
+    transition: 0.3s ease;
+}
+
+#tdog:hover {
+    transform: scale(1.2);
+}
+
+#thedog1 {
+    width: 300px;
+    height: 330px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: #5a1313;
+    transform: translate(-50px, 10px);
+}
+
+
+
+#blocoParte1 h1 {
+    color: #d7892d;
+}
+
+#blocoParte1 {
+    width: 963px;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+#hotdog img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 31%;
+}
+
+#hotdog div {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+.comidas {
+    display: flex;
+    width: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#batatafrita img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#batatafrita div {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+#hamburguer img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#hamburguer div {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+#paragrafo {
+    display: flex;
+    flex-wrap: wrap;
+}
